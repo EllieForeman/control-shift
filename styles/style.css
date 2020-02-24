@@ -102,7 +102,7 @@ a {
 }
 
 .jumbotron h1 {
-  font-size: 3em;
+  font-size: 6em;
   font-family: 'Source Sans Pro', sans-serif;
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   font-weight: 600;
@@ -110,17 +110,17 @@ a {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   font-weight: 600;
   letter-spacing: 2px;
-  text-shadow: 2px 2px #07dd99;
+  text-shadow: 3px 3px #07dd99;
   /*padding-bottom: 30px;*/
 }
 
 h1 span {
-  padding: 0 70px 0 70px;
+ /* padding: 0 70px 0 70px;*/
   /*  background-image: url("../img/ctrl-shift.png");
   background-size: auto 60%;
   background-repeat: no-repeat;
@@ -128,7 +128,8 @@ h1 span {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  line-height: 70%;
+    font-style: italic;
+     /*   background: #074bdd;*/
 }
 
 .jumbotron h2 {
