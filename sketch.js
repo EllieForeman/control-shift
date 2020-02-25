@@ -51,14 +51,14 @@ function imageSnap() {
 
 push(); // Start a new drawing state
 translate((width / 2) - 300, (height / 2));
-rotate(rand1);
+rotate(rand2);
   tint(0, 153, 204, ~~random(100, 200)); // Apply transparency without changing color
   image(img[rand3], 0, 0, imgW, imgH);
     pop(); // Restore original state
     
   push(); // Start a new drawing state
 translate(width / 2, (height / 2) - 10);
-rotate(rand2);
+rotate(rand3);
     tint(255, 255, 0, ~~random(100, 200)); // Apply transparency without changing color
   image(img[rand2], 0, 0, imgW, imgH);
  
@@ -66,10 +66,27 @@ rotate(rand2);
     
   push(); // Start a new drawing state
 translate((width / 2) + 300, (height / 2) + 30);
-rotate(rand3);
+rotate(rand1);
     tint(7, 221, 153, ~~random(100, 200)); // Apply transparency without changing color
   image(img[rand1],0 , 0, imgW, imgH);
 
        pop(); // Restore original state
   
+}
+
+
+ // CHANGE WEBSITE TITLE DYNAMICALLY WITH EMOJI
+ 
+const EMOJIS = [
+  'Control(╯°□°)╯︵┻━┻ Shift',
+  'Control(ヘ･_･)ヘ ┳━┳ ',
+    
+]
+setInterval(() => {
+  document.title = randomEmoji();
+}, 2000);
+
+function randomEmoji(){
+  let randIndex = Math.floor(Math.random() * EMOJIS.length);
+  return EMOJIS[randIndex];
 }
