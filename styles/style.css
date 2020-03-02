@@ -139,7 +139,7 @@ h1 span {
      /*   background: #074bdd;*/
 }
 
-.jumbotron h2 {
+.jumbotron h2 span {
   /* header-subtitle */
   font-size: 1.2em;
   color: #074bdd;
