@@ -2,17 +2,18 @@
 see https://css-tricks.com/snippets/css/complete-guide-grid/#prop-display
 for more into */
 body {
-  background-color: #ffffff !important;
+  /*background-color: #ffffff !important;*/
   /*  background-color: #EDDD6E !important;*/
+    background-color: #F8F2C9;
   color: #074bdd;
   /*color: #040995;*/
   font-size: 18px;
   /*background-image: linear-gradient(rgba(242, 220, 9, 0.99) 0%, rgba(255, 255, 255, 0) 50%);*/
-  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);
+ /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);*/
 }
 
 hr {
-  height: 1px;
+  height: 5px;
   background-color: #07dd99;
   border: none;
 }
@@ -34,7 +35,12 @@ a {
 
 .jumbotron {
   min-height: 100vh;
-  background-color: transparent;
+
+    	background-image: url("/img/test4") !important;
+  background-attachment: fixed;
+	
+	 background-position: center;
+
 }
 
 .jumbotron h2 {
@@ -107,6 +113,7 @@ a {
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   font-weight: 600;
   letter-spacing: 2px;
+     text-shadow: 4px 4px #F8F2C9;
 }
 
 h1 {
@@ -136,6 +143,7 @@ h1 span {
   /* header-subtitle */
   font-size: 1.2em;
   color: #074bdd;
+    background-color: #F8F2C9;
   font-family: "Times", serif;
   /*font-family: 'Source Sans Pro', sans-serif;*/
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/

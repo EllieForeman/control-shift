@@ -8,7 +8,7 @@ var imgH;
 
 function preload() {
     // load images
-    for (var i = 0; i < 35; i++) {
+    for (var i = 0; i < 14; i++) {
         img[i] = loadImage("imgs/" + i + ".png");
         print(i);
     }
@@ -43,9 +43,6 @@ function imageSnap() {
     var rand1 = ~~random(35);
     var rand2 = ~~random(35);
     var rand3 = ~~random(35);
-
-
-
 
     //display images
 
