@@ -7,8 +7,6 @@ var imgH;
 let picBrand = 6; // number of images to test
 let picOther = 15; // number of other images
 
-
-
 function preload() {
     // load images
     for (var i = 0; i < picBrand; i++) {
@@ -20,10 +18,6 @@ function preload() {
         print(i);
     }
 }
-
-
-
-
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
@@ -55,9 +49,6 @@ function imageSnap() {
     var randAng2 = ~~random(360);
     var randBrand = ~~random(picBrand);
     var randImg = ~~random(picOther );
-
-
-
 
     //display images
 
