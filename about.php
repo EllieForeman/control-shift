@@ -28,7 +28,7 @@
       <!-- all content goes in the container -->
 
       <!-- creating navigation bar by pulling in html from the navBar.php file -->
-      <?php include("navBar.php"); ?>
+      <?php include("../control-shift/components/navBar.php"); ?>
 
       <!-- row  -->
       <div class="row">
@@ -53,59 +53,9 @@
       <!-- row  -->
     </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small teal pt-4">
-
-      <!-- Footer Text -->
-      <div class="container-fluid text-center text-md-left">
-
-        <!-- Grid row -->
-        <div class="row logos">
-          <div class="col-md-12 mt-md-0 mt-3">
-            <h5 class="footer-text">funded by</h5>
-          </div>
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row logos">
-          <div class="col-sm "></div>
-          <div class="col-sm text-center"><img src="logos/lottery_Logo.png" alt="Arts Council England logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/ioc.png" alt="Institute of code logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/KWMC-2014.png" alt="Knowle west Media Centre logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/uwe.png" alt="University of the west England logo" class="img-fluid"></div>
-          <div class="col-sm"></div>
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row logos">
-          <div class="col-md-12 mt-md-0 mt-3">
-            <h5 class="footer-text">supported by</h5>
-          </div>
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row logos">
-          <div class="col-sm "></div>
-          <div class="col-sm text-center"><img src="logos/PCD.png" alt="processing community day logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/watershed.png" alt="watershed logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/pmstudio.png" alt="bristol city council logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/curious.png" alt="we the cuious logo" class="img-fluid"></div>
-          <div class="col-sm text-center"><img src="logos/BCC-logo.png" alt="bristol city council logo" class="img-fluid"></div>
-          <div class="col-sm"></div>
-        </div>
-        <!-- Grid row -->
-
-      </div>
-
-      <!-- Footer Text -->
-
-    </footer>
-    <!-- Footer -->
-
-
+    <!-- creating footer from html from the footer.php file -->
+    <?php include("../control-shift/components/footer.php"); ?>
+    
     <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

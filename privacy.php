@@ -30,7 +30,7 @@
   <!-- all content goes in the container -->
 
   <!-- creating navigation bar by pulling in html from the navBar.php file -->
-  <?php include("navBar.php"); ?>
+  <?php include("/components/navBar.php"); ?>
 
       <!-- row  -->
       <div class="row">
