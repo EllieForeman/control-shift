@@ -21,7 +21,7 @@
     <!-- all content goes in the container -->
     <div class="jumbotron d-flex align-items-center">
       <div class="container text-center">
-        <h1><span>Control Shift </br> NEW DESIGN</span></h1>
+        <h1><span>Control Shiftttt</span></h1>
         <h2><span>Weekender 5-7 June 2020
             <br>
             Exhibition 5-19 June 2020</span></h2>
