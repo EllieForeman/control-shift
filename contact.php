@@ -65,7 +65,7 @@
 
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="SubscribeCheckBox">
-              <label class="form-check-label" for="SubscribeCheckBox">Subscribe me to the Control Shift mailing list, I have read and agree to the <a href="privacy.html" target="_blank">Privacy Policy</a></label>
+              <label class="form-check-label" for="SubscribeCheckBox">Subscribe me to the Control Shift mailing list, I have read and agree to the <a href="privacy.php" target="_blank">Privacy Policy</a></label>
             </div>
 
             <div class="overlay is-hidden" id="overlay">
