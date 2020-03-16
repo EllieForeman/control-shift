@@ -5,6 +5,10 @@
   <!-- including html in head.php file -->
   <?php include("../control-shift/components/head.php"); ?>
   <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
+  <script src="/libraries/p5.js" type="text/javascript"></script>
+  <script src="/libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="/libraries/p5.sound.js" type="text/javascript"></script>
+  <script src="/sketch.js" type="text/javascript"></script>
 </head>
 
 <body>
