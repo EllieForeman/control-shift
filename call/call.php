@@ -47,9 +47,9 @@
           <!--<br>Please do not send separate CVs or attachments (embed images into your document).-->
         </p>
         <p class="download-docs">
-          <a href="call-out-info.pdf" target="_blank"><i class="material-icons">insert_drive_file</i> Call Out</a><br>
-          <a href="how-to-apply.docx" target="_blank"><i class="material-icons">insert_drive_file</i> How To Apply</a><br>
-          <a href="sites-info.pdf" target="_blank"><i class="material-icons">insert_drive_file</i> Site Info</a></p>
+          <a href="call-out-info.pdf" target="_blank"><i class="material-icons"></i> Call Out</a><br>
+          <a href="how-to-apply.docx" target="_blank"><i class="material-icons"></i> How To Apply</a><br>
+          <a href="sites-info.pdf" target="_blank"><i class="material-icons"></i> Site Info</a></p>
         <p><strong>Deadline: Midnight Sunday 15th March<br>Notified by: Friday 20th March</strong></p>
 
         <p>
