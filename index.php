@@ -37,7 +37,7 @@
     <p class="text-center"><em>Control Shift</em> is an exciting new arts programme coming to Bristol (UK) in June 2020 exploring creative and critical approaches to technology, rooted in embodiment and materiality.</p>
     <p class="text-center">
       Call out open for artworks, workshops and provocations. <br>Deadline 15th March.<br>
-      <a href="call/index.html">More Info and How To Apply</a>
+      <a href="call/call.php">More Info and How To Apply</a>
     </p>
     <!-- <p><a class="btn btn-blue" href="call/index.html">More information <span class="how-to-apply">/ how to apply</span></a></p> -->
 
