@@ -21,31 +21,14 @@
 
   <title>Control Shift - contact</title>
 
-
-
 </head>
 
 <body>
   <div class="container">
     <!-- all content goes in the container -->
 
-
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-      <!-- <a class="navbar-brand" href="#">Control Shift</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">home</a>
-          <a class="nav-item nav-link" href="about.html">about us</a>
-          <a class="nav-item nav-link" href="call/index.html">open call</a>
-          <a class="nav-item nav-link disabled active" href="#">contact</a>
-        </div>
-      </div>
-    </nav>
-    <!-- nav -->
+    <!-- creating navigation bar by pulling in html from the navBar.php file -->
+    <?php include("navBar.php"); ?>
 
     <!-- row  -->
     <div class="row">
