@@ -1,5 +1,8 @@
 //based on code fot drawgramming https://www.beccarose.co.uk/code/drawgramming/ (this is a simplified version)
 
+
+// to do - add dom element for "alt"
+
 var imgBrand = [];
 var img= [];
 var imgW;
