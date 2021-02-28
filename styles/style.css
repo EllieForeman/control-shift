@@ -96,7 +96,7 @@ a:hover {
 
 
 
-p a {
+p a, h1 a {
     text-decoration: none;
     color: var(--dark-primary);
     border-bottom: 1px solid var(--mid-primary);
@@ -135,6 +135,7 @@ a.dropdown-item:hover {
 .container {
     width: 100%;
     max-width: 1200px;
+    overflow: hidden;
     /*    border: 1px black solid;*/
 }
 
@@ -145,8 +146,25 @@ a.dropdown-item:hover {
 }
 
 #sketch-container {
+    background-image: url("../img/image-temp-desktop.png");
+    background-size: cover;
     height: 500px;
+    overflow: hidden;
 }
+
+@media (max-width: 480px) { 
+    #sketch-container {
+        background-image: url("../img/image-temp-iphone.png");
+        background-size: cover;
+    }
+} 
+
+@media (min-width: 480px) and (max-width: 1024px){ 
+    #sketch-container {
+        background-image: url("../img/image-temp-ipad.png");
+        background-size: cover;
+    }
+} 
 
 .jumbotron {
     min-height: 70vh;
@@ -760,4 +778,20 @@ input:-webkit-autofill {
     .youtubeEmbed {
         width: 100%
     }
+}
+
+.activeLink {
+    text-decoration: underline !important;
+    color: var(--dark-primary) !important;
+}
+
+.activeLink:hover {
+    text-decoration: underline;
+    color: var(--dark-primary)
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
 }

@@ -96,6 +96,18 @@ https://www.instagram.com/
 
 
 /* STYLES FOR ARTWORK PAGE */
+.artwork-title {
+    text-align: center;
+}
+
+.artwork-title a {
+    float: left;
+    border: none;
+}
+
+.fa-arrow-left:before {
+    font-size: 35px;
+}
 
 .artworkImage {
     /* Image itself */
@@ -312,6 +324,12 @@ a:hover.mainLinkText {
     color: var(--dark-primary);
 }
 
+.modal-top-text-no-padding {
+    font-size: 18px;
+    font-family: var(--font-paragraph-modal);
+    color: var(--dark-primary);
+}
+
 /* .modal-link-text {
     border-bottom: 1px solid var(--dark-link);
 }
@@ -338,6 +356,9 @@ a:hover.mainLinkText {
 #actionLink {
     border: 1px solid var(--dark-primary);
     padding: 8px;
+    display: block;
+    max-width: 500px !important;
+    margin: 0 auto;
 }
 
 .bookingOpensText {
@@ -372,7 +393,23 @@ a:hover.mainLinkText {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 990px) {
+    .fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        z-index: 100;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    /*.fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        z-index: 100;
+    }*/
+
     #socialMediaContainer {
         width: 100%;
     }
@@ -410,6 +447,13 @@ a:hover.mainLinkText {
 }
 
 @media only screen and (max-width: 575px) {
+    /*.fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        z-index: 100;
+    }
+*/
     .border-sides {
         border: none;
     }
@@ -528,6 +572,7 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     margin-bottom: 0px;
     padding: 5px;
+    text-decoration: underline;
 }
 
 /* border under date in box */
@@ -615,6 +660,7 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     padding: 20px;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
 
